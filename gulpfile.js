@@ -38,7 +38,7 @@ function scripts () {
 		.pipe(uglify())
 		.pipe(dest('dist/script/'))
 		.pipe(browserSync.stream())
-	}
+}
 
 // pictures optimization
 function images () {
@@ -50,12 +50,15 @@ function images () {
 				imagemin.optipng({ optimizationLevel: 5 }),
 				imagemin.svgo({
 					plugins: [
-					{ cleanupIDs: false }],
+						{ cleanupIDs: false },
+						{ removeViewBox: false },
+						{ removeDimensions: true }
+					],
 				}),
 			])
 		)
 		.pipe(dest('dist/images'));
-	}
+}
 
 // watch for src-files
 function watching () {
@@ -63,6 +66,11 @@ function watching () {
 	watch('src/style/**/*.scss', styles);									// watch for all .scss files
 	watch('src/script/**/*.js', scripts); 								// watch for all .js files
 	watch('index.html').on('change', browserSync.reload)	// watch for dist index.html
+}
+
+function fonts () {
+	return src('src/fonts/**/*.ttf')
+		.pipe(dest('dist/fonts/'))
 }
 
 // update browser page
@@ -78,4 +86,8 @@ function browsersync () {
 exports.default = parallel(html, styles, scripts,	watching,	browsersync);
 
 // build task
-exports.build = series(cleanDist, images, parallel(html, styles, scripts));
+exports.build = series (
+	cleanDist,
+	parallel(images, fonts),
+	parallel(html, styles, scripts)
+);

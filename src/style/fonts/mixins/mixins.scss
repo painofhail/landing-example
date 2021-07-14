@@ -1,0 +1,13 @@
+@import 'variables';
+
+@mixin FontDef-ttf($FontPath, $FontName) {
+	font-family: $FontName;
+	font-weight: 900;
+	font-style: normal;
+	src: url('#{$FontPath}/#{$FontName}}.ttf') format('ttf')
+}
+
+// @mixin fontdef-woff($FontPath, $FontName, $FontType:"Regular") {
+// 	src:	url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.woff2') format('woff2'),
+// 	url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.woff') format('woff');
+// }

@@ -1,0 +1,30 @@
+// @mixin ActiveMenuItem () {
+
+// }
+
+.menu__link {
+
+
+	// @include ApplyFont(
+	// 	$font-family: 'Raleway',
+	// 	$font-weight: 700,
+	// 	$font-size: 12px,
+	// 	$line-height: 14px
+	// );
+	// font-family: Raleway, Arial, sans-serif;
+	font-family: Raleway;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	position: relative;
+
+	&:hover::after, &--active::after {
+		content: '';
+		position: absolute;
+		bottom: -9px;
+		left: 0;
+		height: 1px;
+		width: 100%;
+		background-color: $underline-color;
+	}
+}
