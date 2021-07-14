@@ -2,9 +2,7 @@
 
 @mixin FontDef-ttf($FontPath, $FontName) {
 	font-family: $FontName;
-	font-weight: 900;
-	font-style: normal;
-	src: url('#{$FontPath}/#{$FontName}}.ttf') format('ttf')
+	src: url('#{$FontPath}/#{$FontName}.ttf')
 }
 
 // @mixin fontdef-woff($FontPath, $FontName, $FontType:"Regular") {

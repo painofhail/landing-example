@@ -1,1 +1,35 @@
-@import '_Black.scss';
+@font-face {
+	@include FontDef-ttf($FontPathRaleway, 'Raleway-Bold');
+	font-weight: 700;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathRaleway, 'Raleway-BoldItalic');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathRaleway, 'Raleway-Regular');
+	font-weight: 400;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathRaleway, 'Raleway-RegularItalic');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathRaleway, 'Raleway-ExtraLight');
+	font-weight: 200;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathRaleway, 'Raleway-ExtraLightItalic');
+	font-weight: 200;
+	font-style: italic;
+}
+
+
+

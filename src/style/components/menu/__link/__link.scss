@@ -5,14 +5,13 @@
 .menu__link {
 
 
-	// @include ApplyFont(
-	// 	$font-family: 'Raleway',
-	// 	$font-weight: 700,
-	// 	$font-size: 12px,
-	// 	$line-height: 14px
-	// );
-	// font-family: Raleway, Arial, sans-serif;
-	font-family: Raleway;
+	@include ApplyFont(
+		$font-family: Raleway-Bold,
+		$font-weight: 700,
+		$font-size: 12px,
+		$line-height: 14px
+	);
+
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 0.6px;
