@@ -1,7 +1,7 @@
 {
-  "name": "first-rep",
+  "name": "landing-example",
   "version": "1.0.0",
-  "description": "[Link](https://painofhail.github.io/first-rep/) to the rep page.",
+  "description": "[Link](https://painofhail.github.io/landing-example) to the rep page.",
   "main": "index.js",
   "scripts": {
     "build": "gulp build",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/painofhail/first-rep.git"
+    "url": "git+https://github.com/painofhail/landing-example.git"
   },
   "author": "painofhail",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/painofhail/first-rep/issues"
+    "url": "https://github.com/painofhail/landing-example/issues"
   },
-  "homepage": "https://github.com/painofhail/first-rep#readme",
+  "homepage": "https://github.com/painofhail/landing-example#readme",
   "devDependencies": {
     "browser-sync": "^2.27.4",
     "del": "^6.0.0",

@@ -2,9 +2,9 @@
 	@include ApplyFont(
 		$font-family: Montserrat-Bold,
 		$font-size: 100px,
-		$line-height: 122px
+		$line-height: 122px,
+		$color: white
 	);
-	color: white;
 	user-select: none;
 	text-transform: uppercase;
 	margin: 0;

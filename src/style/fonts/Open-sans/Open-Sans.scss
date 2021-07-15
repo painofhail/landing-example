@@ -1,0 +1,32 @@
+@font-face {
+	@include FontDef-ttf($FontPathOpenSans, 'OpenSans-Bold');
+	font-weight: 700;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathOpenSans, 'OpenSans-BoldItalic');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathOpenSans, 'OpenSans-Regular');
+	font-weight: 400;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathOpenSans, 'OpenSans-RegularItalic');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathOpenSans, 'OpenSans-Light');
+	font-weight: 300;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathOpenSans, 'OpenSans-LightItalic');
+	font-weight: 300;
+	font-style: italic;
+}
