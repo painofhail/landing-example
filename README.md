@@ -5,5 +5,5 @@
 Plans:
 - [x] create html-template with BEM
 - [ ] create css with BEM
-	- [ ] header 
-
+	- [x] header
+	- [ ] about us
