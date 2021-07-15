@@ -1,3 +1,12 @@
 .header__content {
-	height: 300px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: flex-end;
+	background-image:
+		linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.7) 100%),
+		url('/dist/images/header/header-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 752px;
 }

@@ -1,0 +1,32 @@
+@font-face {
+	@include FontDef-ttf($FontPathMontserrat, 'Montserrat-Bold');
+	font-weight: 700;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMontserrat, 'Montserrat-BoldItalic');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMontserrat, 'Montserrat-Regular');
+	font-weight: 400;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMontserrat, 'Montserrat-RegularItalic');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMontserrat, 'Montserrat-ExtraLight');
+	font-weight: 200;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMontserrat, 'Montserrat-ExtraLightItalic');
+	font-weight: 200;
+	font-style: italic;
+}

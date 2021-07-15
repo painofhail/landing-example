@@ -3,6 +3,7 @@
 [Link](https://painofhail.github.io/landing-example/) to the rep page.
 
 Plans:
-- [ ] create html-template
-- [ ] create css
-- [ ] apply BEM
+- [x] create html-template with BEM
+- [ ] create css with BEM
+	- [ ] header 
+

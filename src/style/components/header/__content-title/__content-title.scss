@@ -1,0 +1,11 @@
+.header__content-title {
+	@include ApplyFont(
+		$font-family: Montserrat-Bold,
+		$font-size: 100px,
+		$line-height: 122px
+	);
+	color: white;
+	user-select: none;
+	text-transform: uppercase;
+	margin: 0;
+}
