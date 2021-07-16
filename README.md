@@ -9,7 +9,7 @@ Plans:
 	- [x] about us
 	- [x] expertise
 	- [x] features
-	- [ ] portfolio
+	- [x] portfolio
 	- [ ] video
 	- [ ] statisctics
 	- [ ] slider
