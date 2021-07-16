@@ -1,0 +1,62 @@
+$expertise-item1-width: 90%;
+$expertise-item2-width: 80%;
+$expertise-item3-width: 85%;
+
+$expertise-item1: '90%';
+$expertise-item2: '80%';
+$expertise-item3: '85%';
+
+$expertise-item1-empty: 10%;
+$expertise-item2-empty: 20%;
+$expertise-item3-empty: 15%;
+
+@mixin expertise-pseudo($width-main, $width-main-string, $width-empty) {
+	width: $width-main;
+
+	&::before {
+		content: $width-main-string;
+		position: absolute;
+		top: 0;
+		right: -17px;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		top: -2px;
+		right: -$width-empty;
+		width: $width-empty;
+		height: 2px;
+		background-color: $expertise-color-empty;
+	}
+}
+
+.expertise__content-item {
+	@include ApplyFont(
+		$font-family: OpenSans-Regular,
+		$font-size: 11px,
+		$line-height: 20px,
+		$letter-spacing: 1px,
+		$color: $expertise-color
+	);
+
+	border-top: 2px solid $expertise-color;
+	margin-bottom: 24px;
+	position: relative;
+
+	&:nth-child(1) {
+		@include expertise-pseudo($expertise-item1-width, $expertise-item1, $expertise-item1-empty)
+	}
+
+	&:nth-child(2) {
+		@include expertise-pseudo($expertise-item2-width, $expertise-item2, $expertise-item2-empty)
+	}
+
+	&:nth-child(3) {
+		@include expertise-pseudo($expertise-item3-width, $expertise-item3, $expertise-item3-empty)
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

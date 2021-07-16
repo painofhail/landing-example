@@ -4,6 +4,9 @@ $second-color: #FCBB08;
 
 $bgc-about: #F6F8FA;
 
+$expertise-color: #1D1D1D;
+$expertise-color-empty: #F0F0F0;
+
 @mixin ApplyFont (
 	$font-family: Arial,
 	$font-size: 14px,
@@ -16,4 +19,12 @@ $bgc-about: #F6F8FA;
 	line-height: $line-height;
 	letter-spacing: $letter-spacing;
 	color: $color;
+}
+
+p {
+	margin: 0 0 20px;
+
+	&:last-child {
+		margin: 0;
+	}
 }
