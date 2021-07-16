@@ -9,3 +9,18 @@
 // 	src:	url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.woff2') format('woff2'),
 // 	url('#{$FontPath}/#{$FontType}/#{$FontName}-#{$FontType}.woff') format('woff');
 // }
+
+@mixin ApplyFont (
+	$font-family: Arial,
+	$font-size: 14px,
+	$line-height: 24px,
+	$letter-spacing: normal,
+	$color: $main-color
+) {
+	font-family: $font-family;
+	font-size: $font-size;
+	line-height: $line-height;
+	letter-spacing: $letter-spacing;
+	color: $color;
+}
+

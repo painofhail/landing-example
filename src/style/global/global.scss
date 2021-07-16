@@ -1,7 +1,9 @@
+// =================== CONSTANTS ======================
+
 $main-color: #373A39;
 $main-light-color: #777777;
 $title-color: #242121;
-$second-color: #FCBB08;
+$decor-color: #FCBB08;
 
 $bgc-about: #F6F8FA;
 
@@ -9,18 +11,15 @@ $expertise-color: #1D1D1D;
 $expertise-color-empty: #F0F0F0;
 $expertise-item-title-color: #333333;
 
-@mixin ApplyFont (
-	$font-family: Arial,
-	$font-size: 14px,
-	$line-height: 24px,
-	$letter-spacing: normal,
-	$color: $main-color
-) {
-	font-family: $font-family;
-	font-size: $font-size;
-	line-height: $line-height;
-	letter-spacing: $letter-spacing;
-	color: $color;
+$features-bg-color: #F6F8FA;
+
+// =================== GLOBAL SETTINGS =====================
+* {
+	box-sizing: border-box;
+}
+
+h1, h2 {
+	margin: 0;
 }
 
 p {

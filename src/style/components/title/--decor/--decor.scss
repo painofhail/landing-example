@@ -1,0 +1,13 @@
+.title--decor {
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -14px;
+		left: 0;
+		height: 4px;
+		width: 60px;
+		background-color: $decor-color;
+	}
+}

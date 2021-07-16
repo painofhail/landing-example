@@ -8,7 +8,7 @@ Plans:
 	- [x] header
 	- [x] about us
 	- [x] expertise
-	- [ ] features
+	- [x] features
 	- [ ] portfolio
 	- [ ] video
 	- [ ] statisctics
