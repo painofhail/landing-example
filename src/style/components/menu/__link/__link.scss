@@ -10,7 +10,8 @@
 	position: relative;
 	padding: 0 6px;
 
-	&:hover::after, &--active::after {
+	&:hover::after,
+	&--active::after {
 		content: '';
 		position: absolute;
 		bottom: -9px;

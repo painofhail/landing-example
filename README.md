@@ -17,3 +17,4 @@ Plans:
 	- [ ] pricing
 	- [ ] contacts
 	- [ ] footer
+- [ ] portfolio js (append, pagination)
