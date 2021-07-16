@@ -6,4 +6,14 @@ Plans:
 - [x] create html-template with BEM
 - [ ] create css with BEM
 	- [x] header
-	- [ ] about us
+	- [x] about us
+	- [x] expertise
+	- [ ] features
+	- [ ] portfolio
+	- [ ] video
+	- [ ] statisctics
+	- [ ] slider
+	- [ ] team
+	- [ ] pricing
+	- [ ] contacts
+	- [ ] footer

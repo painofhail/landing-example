@@ -1,0 +1,11 @@
+.expertise__item-title {
+	@include ApplyFont(
+		$font-family: Montserrat-Bold,
+		$font-size: 14px,
+		$line-height: 20px,
+		$letter-spacing: 4.29px,
+		$color: $expertise-item-title-color
+	);
+	text-transform: uppercase;
+	margin-bottom: 14px;
+}

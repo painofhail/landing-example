@@ -1,0 +1,9 @@
+.expertise__item {
+	display: flex;
+	flex-flow: row nowrap;
+	margin-right: 30px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
