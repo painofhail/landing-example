@@ -1,0 +1,9 @@
+.video__quote {
+	@include ApplyFont(
+		$font-family: Merriweather-LightItalic,
+		$font-size: 18px,
+		$line-height: 36px,
+		$color: $title-color
+	);
+	margin-bottom: 50px;
+}

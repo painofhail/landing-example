@@ -1,0 +1,32 @@
+@font-face {
+	@include FontDef-ttf($FontPathMerriweather, 'Merriweather-Bold');
+	font-weight: 700;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMerriweather, 'Merriweather-BoldItalic');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMerriweather, 'Merriweather-Regular');
+	font-weight: 400;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMerriweather, 'Merriweather-RegularItalic');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMerriweather, 'Merriweather-Light');
+	font-weight: 300;
+}
+
+@font-face {
+	@include FontDef-ttf($FontPathMerriweather, 'Merriweather-LightItalic');
+	font-weight: 300;
+	font-style: italic;
+}

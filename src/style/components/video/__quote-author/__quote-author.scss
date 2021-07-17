@@ -1,0 +1,8 @@
+.video__quote-author {
+	@include ApplyFont(
+		$font-family: Merriweather-LightItalic,
+		$font-size: 14px,
+		$line-height: 32px,
+		$color: $video-quote-author-color
+	);
+}
