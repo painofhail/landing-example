@@ -31,6 +31,7 @@
     "sass": "^1.35.2"
   },
   "dependencies": {
+    "@splidejs/splide": "^2.4.21",
     "editorconfig-checker": "^4.0.2"
   }
 }

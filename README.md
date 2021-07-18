@@ -12,7 +12,7 @@ Plans:
 	- [x] portfolio
 	- [x] video
 	- [x] statisctics
-	- [ ] slider
+	- [x] slider
 	- [ ] team
 	- [ ] pricing
 	- [ ] contacts

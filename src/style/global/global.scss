@@ -21,12 +21,17 @@ $video-quote-author-color: #9E9E9E;
 
 $statistics-num-text-color: #00B2A0;
 
+$slider-bgc-color: #F6F8FA;
+$slider-arrow-color: #333333;
+$slider-pagination-item-color: #9E9E9E;
+$slider-pagination-item-active-color: #242121;
+
 // =================== GLOBAL SETTINGS =====================
 * {
 	box-sizing: border-box;
 }
 
-h1, h2 {
+h1, h2, h3 {
 	margin: 0;
 }
 

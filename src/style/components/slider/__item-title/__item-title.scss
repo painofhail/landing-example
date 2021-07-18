@@ -1,0 +1,10 @@
+.slider__item-title {
+	@include ApplyFont(
+		$font-family: Montserrat-Bold,
+		$font-size: 40px,
+		$line-height: 52px,
+		$color: $title-color
+	);
+	max-width: 700px;
+	margin-bottom: 32px;
+}
