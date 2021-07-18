@@ -10,8 +10,8 @@ Plans:
 	- [x] expertise
 	- [x] features
 	- [x] portfolio
-	- [ ] video
-	- [ ] statisctics
+	- [x] video
+	- [x] statisctics
 	- [ ] slider
 	- [ ] team
 	- [ ] pricing
