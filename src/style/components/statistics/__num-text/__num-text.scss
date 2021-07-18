@@ -1,0 +1,8 @@
+.statistics__num-text{
+	@include ApplyFont(
+		$font-family: OpenSans-Regular,
+		$font-size: 14px,
+		$line-height: 19px,
+		$color: $statistics-num-text-color
+	);
+}

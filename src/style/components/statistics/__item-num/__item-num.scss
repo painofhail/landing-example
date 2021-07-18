@@ -1,0 +1,9 @@
+.statistics__item-num {
+	@include ApplyFont(
+		$font-family: Montserrat-Bold,
+		$font-size: 60px,
+		$line-height: 73px,
+		$color: $title-color
+	);
+	margin-bottom: 10px;
+}
