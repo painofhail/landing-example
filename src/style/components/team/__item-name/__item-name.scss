@@ -1,0 +1,11 @@
+.team__item-name {
+	@include ApplyFont (
+		$font-family: Montserrat-Bold,
+		$font-size: 14px,
+		$line-height: 17px,
+		$color: $team-name-color
+	);
+
+	text-transform: uppercase;
+	margin-bottom: 12px;
+}

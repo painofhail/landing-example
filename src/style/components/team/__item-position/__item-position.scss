@@ -1,0 +1,8 @@
+.team__item-position {
+	@include ApplyFont (
+		$font-family: OpenSans-Regular,
+		$font-size: 12px,
+		$line-height: 16.3px,
+		$color: $team-position-color
+	);
+}
