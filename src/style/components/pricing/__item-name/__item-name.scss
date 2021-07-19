@@ -1,0 +1,11 @@
+.pricing__item-name {
+	@include ApplyFont(
+		$font-family: OpenSans-Bold,
+		$font-size: 16px,
+		$line-height: 22px,
+		$color: $title-color
+	);
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}

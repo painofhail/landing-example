@@ -14,7 +14,7 @@ Plans:
 	- [x] statisctics
 	- [x] slider
 	- [x] team
-	- [ ] pricing
+	- [x] pricing
 	- [ ] contacts
 	- [ ] footer
 - [x] slider js
