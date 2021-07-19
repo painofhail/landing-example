@@ -1,0 +1,18 @@
+.contacts__form-textarea {
+	border: none;
+	border-bottom: 3px solid $contacts-form-color;
+	outline: none;
+	margin-bottom: 32px;
+	height: 156px;
+	resize: none;
+
+	&::placeholder {
+		@include ApplyFont(
+			$font-family: OpenSans-Regular,
+			$font-size: 12px,
+			$line-height: 20px,
+			$letter-spacing: 3.7px,
+			$color: $contacts-form-text-color
+		);
+	}
+}

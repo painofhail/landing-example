@@ -1,0 +1,16 @@
+.contacts__form-button {
+	@include ApplyFont(
+		$font-family: Montserrat-Bold,
+		$font-size: 11px,
+		$line-height: 13.1px,
+		$letter-spacing: 2px,
+		$color: $contacts-form-button-text-color
+	);
+
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	padding: 17px 15px 15px;
+	background-color: $contacts-form-button-color;
+	max-width: 230px
+}
