@@ -15,8 +15,13 @@ Plans:
 	- [x] slider
 	- [x] team
 	- [x] pricing
-	- [ ] contacts
+	- [x] contacts
 	- [ ] footer
 - [x] slider js
 - [ ] portfolio js (append, pagination)
+- [ ] smooth navigation
 
+Not working (no requirements):
+* css-rules for mobile-devices and small screens
+* choose plan
+* form
