@@ -11,6 +11,6 @@ navItem.forEach(item => {
 			behavior: 'smooth',
 		});
 
-		history.pushState(null, null, `/${href}`)
+		history.pushState(null, null, `./${href}`)
 	});
 });
