@@ -13,7 +13,7 @@ Plans:
 	- [x] video
 	- [x] statisctics
 	- [x] slider
-	- [ ] team
+	- [x] team
 	- [ ] pricing
 	- [ ] contacts
 	- [ ] footer
