@@ -19,7 +19,7 @@ Plans:
 	- [x] footer
 - [x] slider js
 - [x] button 'to top' (smooth)
-- [ ] smooth navigation
+- [x] smooth navigation
 - [ ] portfolio js (append, pagination)
 
 Not working (no requirements):
