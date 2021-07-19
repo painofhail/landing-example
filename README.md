@@ -20,9 +20,10 @@ Plans:
 - [x] slider js
 - [x] button 'to top' (smooth)
 - [x] smooth navigation
-- [ ] portfolio js (append, pagination)
+- [x] portfolio js (append, show all) - show images from placeholder.com
 
 Not working (no requirements):
 * css-rules for mobile-devices and small screens
+* portfolio category filter
 * choose plan
 * form
