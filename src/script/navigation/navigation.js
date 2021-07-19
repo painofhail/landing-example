@@ -4,7 +4,7 @@ navItem.forEach(item => {
 	item.addEventListener('click', (event) => {
 		event.preventDefault();
 
-		const href = item.getAttribute('href');
+		const href = item.getAttribute('href').replace('./', '');
 		const section = document.querySelector(`${href}`);
 		window.scrollTo({
 			top: section.offsetTop,
