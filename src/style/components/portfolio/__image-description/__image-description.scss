@@ -1,0 +1,10 @@
+.portfolio__image-description {
+	@include ApplyFont(
+		$font-family: OpenSans-Light,
+		$font-size: 12px,
+		$line-height: 16.3px,
+		$letter-spacing: 1px,
+		$color: $portfolio-text-image-color
+	);
+	text-transform: uppercase;
+}

@@ -1,0 +1,23 @@
+.portfolio__image {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 22px;
+
+	&:hover {
+		.portfolio__image-body {
+			bottom: 0;
+			border: 12px solid $portfolio-border-image-color;
+			background-color: $portfolio-bg-image-color;
+		}
+
+		img {
+			visibility: hidden;
+		}
+	}
+
+	img {
+		display: block;
+		max-width: 100%;
+		transition: visibility 0.2s ease-in-out;
+	}
+}

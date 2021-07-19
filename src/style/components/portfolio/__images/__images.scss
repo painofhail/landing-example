@@ -1,8 +1,6 @@
 .portfolio__images {
-	display: flex;
-	flex-flow: row wrap;
-	margin-bottom: 72px;
+	column-count: 4;  // кол-во колонок
+	column-gap: 22px; // отступы между колонками
 
-	min-height: 200px;
-	background-color: #EEE;
+	margin-bottom: 72px;
 }

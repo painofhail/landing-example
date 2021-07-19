@@ -1,0 +1,12 @@
+.portfolio__image-title {
+	@include ApplyFont(
+		$font-family: OpenSans-Bold,
+		$font-size: 14px,
+		$line-height: 14px,
+		$letter-spacing: 1.4px,
+		$color: $portfolio-text-image-color
+	);
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
