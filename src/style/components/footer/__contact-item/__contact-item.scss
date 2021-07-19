@@ -1,0 +1,14 @@
+.footer__contact-item {
+	@include ApplyFont(
+		$font-family: OpenSans-Regular,
+		$font-size: 14px,
+		$line-height: 32px,
+		$color: $footer-content-contacts-color
+	);
+	text-decoration: none;
+	margin-bottom: 0.5em;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}

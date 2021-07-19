@@ -4,7 +4,7 @@
 
 Plans:
 - [x] create html-template with BEM
-- [ ] create css with BEM
+- [x] create css with BEM
 	- [x] header
 	- [x] about us
 	- [x] expertise
@@ -16,8 +16,9 @@ Plans:
 	- [x] team
 	- [x] pricing
 	- [x] contacts
-	- [ ] footer
+	- [x] footer
 - [x] slider js
+- [ ] button 'to top' (smooth)
 - [ ] portfolio js (append, pagination)
 - [ ] smooth navigation
 

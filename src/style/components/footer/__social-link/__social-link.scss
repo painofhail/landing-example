@@ -1,0 +1,17 @@
+.footer__social-link {
+	@include ApplyFont(
+		$font-family: Montserrat-ExtraLight,
+		$font-size: 12px,
+		$line-height: 14.6px,
+		$letter-spacing: 4px,
+		$color: $footer-content-link-color
+	);
+
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 28px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}

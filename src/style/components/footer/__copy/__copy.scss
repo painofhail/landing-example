@@ -1,0 +1,12 @@
+.footer__copy {
+	@include ApplyFont(
+		$font-family: OpenSans-Regular,
+		$font-size: 12px,
+		$line-height: 16.3px,
+		$color: $footer-copy-text-color
+	);
+
+	background-color: $footer-copy-bgc-color;
+	text-align: center;
+	padding: 43px 0;
+}

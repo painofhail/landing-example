@@ -1,0 +1,13 @@
+.logo--line {
+	position: relative;
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -24px;
+		left: calc((150px/2 - 42px/2)*(-1));
+		height: 2px;
+		width: 150px;
+		background-color: $decor-color;
+	}
+}
