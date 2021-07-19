@@ -18,9 +18,9 @@ Plans:
 	- [x] contacts
 	- [x] footer
 - [x] slider js
-- [ ] button 'to top' (smooth)
-- [ ] portfolio js (append, pagination)
+- [x] button 'to top' (smooth)
 - [ ] smooth navigation
+- [ ] portfolio js (append, pagination)
 
 Not working (no requirements):
 * css-rules for mobile-devices and small screens
