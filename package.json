@@ -34,8 +34,5 @@
     "@splidejs/splide": "^2.4.21",
     "editorconfig-checker": "^4.0.2",
     "normalize.css": "^8.0.1"
-  },
-  "browserslist": [
-    "last 10 versions"
-  ]
+  }
 }
